@@ -1,0 +1,420 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    color: white;
+}
+p{
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+}
+.nav-bar{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 15px;
+    background-color: white;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    margin: auto 50px;
+}
+
+.nav-bar ul li:hover{
+    background-color: rgb(0, 87, 183);
+    color: white;
+    
+    
+   
+    border: solid 2px rgb(0, 87, 183);
+    
+    padding: 3px 5px;
+    border-radius: 5px;
+    
+
+
+}
+#active-link{
+    background-color: rgb(0, 87, 183);
+    color: white;
+    border-radius: 3px;
+    border: solid 2px rgb(0, 87, 183);
+    padding: 5px;
+
+
+}
+.nav-list1{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    width: 30vw;
+    list-style: none;
+    
+
+}
+.nav-link1:hover{
+    background-color: rgba(0, 88, 183, 0.528);
+    color: white;
+    border-radius: 3px;
+    border: solid 2px rgb(0, 87, 183);
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+.donate-btn{
+    border: solid 2px rgb(0, 87, 183);
+    background-color: yellow;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+
+.donate-btn:hover{
+    background-color:rgb(0, 87, 183) ;
+    color: white;
+}
+
+.donate-div{
+
+
+}
+
+.logo{
+    margin: 3px 1rem;
+   
+}
+
+.logo:hover{
+    background-color: white;
+    padding: 5px 10px;
+    border: solid 3px black;
+    border-radius: 3px;
+}
+.logo-text{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: -5px;
+    
+}
+.logo-image{
+    margin: auto;
+    padding-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.logo-image1{
+    width: 100px;
+    
+    
+
+}
+#body1{
+    background-color: rgb(0, 87, 183);
+    padding-top: 3rem 5rem;
+    color: white;
+}
+
+.body12{
+    
+   padding: 3rem 3rem;
+}
+.body-text11{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+
+}
+.body-text{
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*.image1-div{
+    margin: auto;
+    border: solid 3px black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 3px auto;
+    
+}
+*/
+
+.image1{
+    display: block;
+    
+   margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+}
+
+#text1{
+    margin: 1px auto;
+    font-weight: 50px;
+    font-size: 14px;
+}
+#text2{
+    
+    font-family: cursive;
+    margin: 1rem auto;
+}
+#text3{
+    border: solid rgb(0, 87, 183) ;
+    background-color: rgba(252, 211, 7, 0.782);
+    width: auto;
+    color: black;
+    font-weight: bold;
+}
+
+#text4{
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    margin-top: -15px;
+}
+#text5{
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    border: solid 2px rgb(88, 81, 81);
+    background-color: rgb(252, 211, 7);
+    border-radius: 7px;
+    padding: 10px 5px;
+    color: black;
+    font-weight: bold;
+    
+}
+#text5:hover{
+    background-color: black ;
+    color: white;
+}
+
+.crisis2{
+    padding: 1rem 1rem;
+    background-color: rgb(0, 87, 183);
+}
+
+.crisis-image{
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    
+}
+
+.crisis-image1{
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    align-self: center;
+    transition: transform .3s ease;
+}
+
+.crisis-image1:hover {
+    transform: scale(1.1);
+}
+
+#about{
+    background-color:rgb(252, 211, 7 );
+    
+}
+
+.inner{
+    padding: 3rem 3rem;
+    
+}
+#contact{
+   background-color: black;
+   color: white;
+}
+#footer{
+    
+    background-color:rgb(0, 87, 183);
+    height: 10vh;
+}
+.cross{
+    font-weight: bolder;
+    font-family:'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.sponsors{
+    width:200px;
+    display: block;
+    margin: auto;
+    margin-top: -4rem;
+}
+.text6{
+    font-size: 12px;
+    color: black;
+    padding: 2rem auto;
+    
+    
+    
+    
+    
+}
+#footer{
+    
+}
+.text7{
+    font-size: 14px;
+    margin: -4px;
+}
+.text8{
+    font-size: 18px;
+   
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.donation-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    
+}
+.donate-text1{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.donate-text2{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#payment-frame{
+    border: 2px solid rgb(0, 87, 183) ;
+    background-color: rgb(0, 87, 183) ;
+    border-radius: 3px;
+    margin: 1rem;
+}
+/* mobile device*/
+
+@media only screen and (max-width:750px) {
+    .menu-btn{
+        display: block;
+    }
+ 
+    .nav-bar1{
+        background-color: white;
+        margin: 1rem 10px;
+        flex-direction: column;
+        width: 60%;
+        height: 40vh;
+        justify-content: center;
+        background: white;
+        /*margin-top: -900px;*/
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    
+/*ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+*/
+
+li{
+    margin: 10px 10px;
+}
+.nav-bar1 ul li{
+    color: black;
+}
+
+    
+}
+
+@media only screen and (max-width:900px){
+    .menu-btn{
+        display: block;
+        margin-right: 2rem;
+    }
+ 
+    .nav-bar1{
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        background: white;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+
+    #col-flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    #col-flex2{
+        margin-top: 7rem;
+    }
+
+    
+}
+
+
+/* donation page donation button*/
+
+.donate-button{
+    background-color: rgb(252, 211, 7 );
+    border: solid 1px rgb(252, 211, 7 );
+    border-radius: 7px;
+    cursor: pointer;
+    
+  border: 3px solid rgb(252, 211, 7 ) ;
+}
+
+.donate-div{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
